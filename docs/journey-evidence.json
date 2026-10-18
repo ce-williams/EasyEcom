@@ -1,0 +1,194 @@
+{
+  "journeys": [
+    {
+      "width": 390,
+      "product": "i-survived-i70",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 390,
+      "product": "mentally-on-a-chairlift",
+      "option": "Matte",
+      "interactions": 3
+    },
+    {
+      "width": 390,
+      "product": "mentally-on-a-chairlift",
+      "option": "Gloss",
+      "interactions": 3
+    },
+    {
+      "width": 390,
+      "product": "powder-over-productivity",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 390,
+      "product": "apres-is-my-cardio",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 390,
+      "product": "altitude-adjustment",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 390,
+      "product": "weekend-mountain-local",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 390,
+      "product": "trail-mix-emotions",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 390,
+      "product": "camp-more-scroll-less",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 390,
+      "product": "colorado-layering-expert",
+      "option": "Matte",
+      "interactions": 3
+    },
+    {
+      "width": 390,
+      "product": "colorado-layering-expert",
+      "option": "Gloss",
+      "interactions": 3
+    },
+    {
+      "width": 390,
+      "product": "brake-for-scenic-routes",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 390,
+      "product": "out-of-office-outside",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 390,
+      "product": "front-range-free-range",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "i-survived-i70",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "mentally-on-a-chairlift",
+      "option": "Matte",
+      "interactions": 3
+    },
+    {
+      "width": 1440,
+      "product": "mentally-on-a-chairlift",
+      "option": "Gloss",
+      "interactions": 3
+    },
+    {
+      "width": 1440,
+      "product": "powder-over-productivity",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "apres-is-my-cardio",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "altitude-adjustment",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "weekend-mountain-local",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "trail-mix-emotions",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "camp-more-scroll-less",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "colorado-layering-expert",
+      "option": "Matte",
+      "interactions": 3
+    },
+    {
+      "width": 1440,
+      "product": "colorado-layering-expert",
+      "option": "Gloss",
+      "interactions": 3
+    },
+    {
+      "width": 1440,
+      "product": "brake-for-scenic-routes",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "out-of-office-outside",
+      "option": null,
+      "interactions": 2
+    },
+    {
+      "width": 1440,
+      "product": "front-range-free-range",
+      "option": null,
+      "interactions": 2
+    }
+  ],
+  "responsive": [
+    {
+      "documentWidth": 320,
+      "height": 844,
+      "width": 320
+    },
+    {
+      "documentWidth": 390,
+      "height": 844,
+      "width": 390
+    },
+    {
+      "documentWidth": 768,
+      "height": 844,
+      "width": 768
+    },
+    {
+      "documentWidth": 1440,
+      "height": 844,
+      "width": 1440
+    }
+  ]
+}
