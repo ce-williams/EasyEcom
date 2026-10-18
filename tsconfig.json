@@ -38,6 +38,8 @@
     ".next-desk/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    ".poc-build",
+    "out"
   ]
 }

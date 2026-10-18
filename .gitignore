@@ -9,3 +9,5 @@ test-results/
 playwright-report/
 .DS_Store
 private-operations/
+.poc-build/
+out/

@@ -9,6 +9,7 @@ export type PilotConfig = {
 
 export function readPilotConfig(brand: Brand, env: Record<string, string | undefined> = process.env): PilotConfig | null {
   if (typeof window !== 'undefined') throw new Error('Pilot configuration is server-only.');
+  if (env.NEXT_PUBLIC_POC_MODE === 'true') return null;
   const mode = env.PILOT_MODE ?? 'off';
   if (mode === 'off') return null;
   if (mode !== 'test' && mode !== 'live') throw new Error('Invalid pilot mode.');

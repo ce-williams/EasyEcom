@@ -1,5 +1,9 @@
 # EasyEcom · Après Club
 
+## GitHub Pages POC
+
+The public Pages deployment is a static design demonstration with simulated checkout and payments disabled. Build it with `pnpm build:poc`; the verified artifact is written to ignored `out/` using `/EasyEcom` as its base path. `.github/workflows/pages-poc.yml` builds and publishes it on pushes to `main`. See [POC deployment details](docs/GITHUB_PAGES_POC.md).
+
 A local storefront design built with Next.js App Router, React, TypeScript, bespoke CSS tokens, and original SVG concept artwork. This phase implements the shopping interface. **The bag and checkout are demonstration-only; there is no payment processing, live inventory, order creation, fulfillment, or analytics transmission.**
 
 ## Run

@@ -39,6 +39,9 @@ test('pilot is off by default and exposes no key or private price mapping public
   assert.ok(!JSON.stringify(status).includes('sk_test'));
   assert.ok(!JSON.stringify(status).includes('price_first'));
   assert.deepEqual(publicPilotStatus(brand, { PILOT_MODE: 'test' }), { mode: 'paused', variantIds: [] });
+  const forcedPoc = { ...environment(), NEXT_PUBLIC_POC_MODE: 'true', PILOT_MODE: 'live', STRIPE_SECRET_KEY: 'sk_live_fake', PILOT_LAUNCH_APPROVED: 'true' };
+  assert.equal(readPilotConfig(brand, forcedPoc), null);
+  assert.deepEqual(publicPilotStatus(brand, forcedPoc), { mode: 'preview', variantIds: [] });
 });
 
 test('pilot validates account mode, brand, origin, mapping, shipping and merchant decisions', () => {

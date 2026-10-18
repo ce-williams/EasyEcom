@@ -37,6 +37,7 @@ export function StoreProvider({ brand, initialPilot, children }: { brand: Brand;
   const opener = useRef<HTMLElement | null>(null);
   const storageKey = `easyecom:${brand.id}:demo-bag:v1`;
   useEffect(() => {
+    if (process.env.NEXT_PUBLIC_POC_MODE === 'true') return;
     let active = true;
     fetch('/api/pilot', { cache: 'no-store' }).then(async response => {
       if (!response.ok) throw new Error('Checkout status unavailable');
@@ -75,7 +76,7 @@ export function StoreProvider({ brand, initialPilot, children }: { brand: Brand;
   const beginCheckout = async () => {
     if (!lines.length || checkoutLock.current) return;
     track(); setCheckoutError('');
-    if (pilot.mode === 'preview') { dialog.current?.close(); router.push('/checkout'); return; }
+    if (process.env.NEXT_PUBLIC_POC_MODE === 'true' || pilot.mode === 'preview') { dialog.current?.close(); router.push('/checkout'); return; }
     if (pilot.mode === 'paused') { setCheckoutError('Checkout is currently unavailable. Your bag is saved.'); return; }
     checkoutLock.current = true; setCheckoutPending(true);
     try {
